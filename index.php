@@ -49,7 +49,7 @@
 		<link rel="stylesheet" type="text/css" href="./style.css">
 	</head>
 	<body>
-		<h1>ghviewer.ioi-xd.net</h1>
+		<h1>ghviewer</h1>
 		<p>is a simple site for stripping a github repo page down to a readme and the link for the source code. This is useful for many people who feel like they can't navigate GitHub and want the download link shown to them.</p>
 		<b>Put in a repo here:</b>
 		<form action="" method="get">
