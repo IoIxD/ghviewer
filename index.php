@@ -51,6 +51,7 @@
 	<body>
 		<h1>ghviewer</h1>
 		<p>is a simple site for stripping a github repo page down to a readme and the link for the source code. This is useful for many people who feel like they can't navigate GitHub and want the download link shown to them.</p>
+		<a href="https://github.com/IoIxD/ghviewer">The source code is here.</a><br><br>
 		<b>Put in a repo here:</b>
 		<form action="" method="get">
 			<input width="100%" type="text" name="url" placeholder="https://github.com/IoIxD/ghviewer/"></input>
@@ -118,6 +119,7 @@
 <html>
 	<head>
 	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title><?php echo $title?></title>
 	</head>
 	<body>
 		<h1 style='text-align: center'><?php echo $title?></h1>
