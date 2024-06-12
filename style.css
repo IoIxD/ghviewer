@@ -7,3 +7,6 @@ th,td {
 form, form input {
     width: 100%;
 }
+img {
+    max-width: 900px;
+}
