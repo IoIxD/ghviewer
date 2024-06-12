@@ -123,11 +123,12 @@
 	</head>
 	<body>
 		<h1 style='text-align: center'><?php echo $title?></h1>
-		<a style="float: right; padding: 5px; 
+		<a style="font-size: 110%; float: right; padding: 5px; 
 			color: white; font-weight:bold; 
 			background: linear-gradient(to bottom, #a83232,#802020);
 			border-radius: 5px;"
-		href="#downloads">Downloads</a></li>
+		href="#downloads">Downloads</a>
+		<br>
 		<hr>
 		<p id="readme">
 			<?php echo $readme?></p>
