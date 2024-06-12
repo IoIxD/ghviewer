@@ -1,8 +1,5 @@
 <?php
 	$style = '';
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
 
 	include("parsedown.php");
 	$Parsedown = new Parsedown();
@@ -54,10 +51,17 @@
 	<body>
 		<h1>ghviewer.ioi-xd.net</h1>
 		<p>is a simple site for stripping a github repo page down to a readme and the link for the source code. This is useful for many people who feel like they can't navigate GitHub and want the download link shown to them.</p>
+		<b>Put in a repo here:</b>
+		<form action="" method="get">
+			<input width="100%" type="text" name="url" placeholder="https://github.com/IoIxD/ghviewer/"></input>
+		</form>
 	</body>
 </html>
 		<?php
 	} else {
+		ini_set('display_errors', 1);
+		ini_set('display_startup_errors', 1);
+		error_reporting(E_ALL);
 		$apiurl = str_replace("github.com","api.github.com/repos",$url);
 		$releaseurl = $apiurl."/releases";
 
