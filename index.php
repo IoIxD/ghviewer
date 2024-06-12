@@ -123,7 +123,7 @@
 	</head>
 	<body>
 		<h1 style='text-align: center'><?php echo $title?></h1>
-		<a style="font-size: 150%; float:right; padding: 5px; 
+		<a style="font-size: 160%; float:right; padding: 5px; 
 			color: white; font-weight:bold; 
 			background: linear-gradient(to bottom, #a83232,#802020);
 			border-radius: 5px;"
